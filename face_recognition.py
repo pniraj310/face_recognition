@@ -58,7 +58,7 @@ if face_data and labels:
      print(face_labels.shape)
      print(face_dataset.shape)
 
-trainset = np.concatenate((face_data, face_labels), axis=1)
+trainset = np.concatenate((face_dataset, face_labels), axis=1)
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 while True:
